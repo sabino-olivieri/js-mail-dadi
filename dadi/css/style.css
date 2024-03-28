@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.btn {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: rgb(0, 157, 255);
+}
+
+.message-number {
+    padding: 20px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.hidden {
+    height: 0px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg-bisque {
+    background-color: bisque;
+}
+
+.bg-red {
+    background-color: lightcoral;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
